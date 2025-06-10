@@ -3,12 +3,6 @@
 Bem-vindo(a) ao meu portfólio! 👋  
 Este projeto foi criado com o objetivo de apresentar quem sou, minha trajetória na área de desenvolvimento front-end e compartilhar meus primeiros projetos.
 
-## 🌐 Acesse online
-
-Você pode visualizar o portfólio online clicando no link abaixo:
-
-👉 [rafaelacancio.github.io/portfolio](https://rafaelacancio.github.io/portfolio)
-
 ## 💻 Tecnologias utilizadas
 
 - HTML5
