@@ -1,0 +1,100 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+header {
+    background-color: #ffe4c4;
+    padding: 20px 0;
+    text-align: center;
+}
+.titulo_principal {
+    font-size: 2rem;
+    color: #5a2d0c;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 10px;
+}
+.menu li {
+    margin: 0 15px;
+}
+#sobre {
+    padding: 40px 20px;
+    text-align: center;
+}
+.quem_sou {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+.foto-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+#foto {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ccc;
+}
+.texto_sobre {
+    max-width: 600px;
+    margin: 0 auto 30px;
+    padding: 0 20px;
+}
+.redes-sociais {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+.social-links {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: transform 0.3s;
+}
+.social-links img {
+    width: 20px;
+    height: 20px;
+}
+.social-links:hover {
+    transform: scale(1.1);
+}
+#contato {
+    background-color: #fff3e0;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#contato a {
+    color: #d35400;
+    text-decoration: none;
+}
+#contato a:hover {
+    text-decoration: underline;
+}
+footer {
+    background-color: #ffe4c4;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #555;
+}
